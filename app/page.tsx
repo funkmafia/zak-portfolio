@@ -1,6 +1,10 @@
 import Image from "next/image";
 import Projects from "./projects";
 import AboutScroll from "@/components/AboutScroll";
+import StackSelection from "@/components/StackSelection";
+import BluePrintPrinciples from "@/components/BlueprintPrinciples"; 
+import Spotlight from "@/components/SpotlightSection";
+import SpotlightSection from "@/components/SpotlightSection";
 
 
 export default function Home() {
@@ -32,13 +36,21 @@ export default function Home() {
        {/* imported projects section */}
        <Projects />
 
+       {/* imported stack section*/ }
+        <StackSelection /> 
 
+        {/* imported prinples section*/ }
+        <BluePrintPrinciples />
+
+        {/* imported spotlight section*/}
+        <SpotlightSection /> 
 
 
 
 
 
       </main>
+
       <footer className="text-center text-sm text-[#A5A5A5] py-6">
     © Zak Hajjaji 🍊 Funk Mafia - Blueprint built with clarity & coffee
   </footer>

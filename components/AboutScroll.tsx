@@ -1,3 +1,9 @@
+'use client';
+
+import React from 'react';
+import About from '@/app/data/about'
+
+
 type ScrollSlide = {
     title: string;
     text: string; 

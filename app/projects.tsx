@@ -1,3 +1,6 @@
+'use client';
+
+import React from 'react';
 import projects from "./data/projects.js";
 
 export default function Projects() {

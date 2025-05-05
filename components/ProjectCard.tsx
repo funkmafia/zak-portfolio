@@ -18,6 +18,11 @@
     this type is telling typescrit that any props passed into <projectcard /> must match this shape 
 */ }
 
+'use client';
+
+import React from 'react';
+import projects from '@/app/data/projects';
+
 type ProjectProps = {
     title: string; 
     description: string; 

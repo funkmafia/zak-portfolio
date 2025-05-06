@@ -7,45 +7,44 @@ import SpotlightSection from "@/components/SpotlightSection";
 import ContactSection from "@/components/ContactSection"; 
 import Hero from "@/components/Hero"; 
 import Navbar from "@/components/Navbar";
+import LinkSection from "@/components/LinkSection";
 
 
 export default function Home() {
-
   return (
-      
-      <main className="p-6 max-w-7xl mx-auto space-y-24">
-        {/* imported the navbar section */}
-        <Navbar  />
+    <>
+      <Navbar />
 
-        {/* imported the header section */}
+      <main className="pt-20 px-6 max-w-7xl mx-auto space-y-24">
+        {/* Hero Section */}
         <Hero />
 
-       {/* Imported The About Zak blueprint section */} 
-       <AboutScroll /> 
+        {/* About Section */}
+        <AboutScroll />
 
-       {/* imported projects section */}
-       <Projects />
+        {/* Projects */}
+        <Projects />
 
-       {/* imported stack section */}
-        <StackSelection /> 
+        {/* Stack Section */}
+        <StackSelection />
 
-        {/* imported prinples section */}
+        {/* Blueprint Principles */}
         <BluePrintPrinciples />
 
-        {/* imported spotlight section */}
-        <SpotlightSection /> 
+        {/* Spotlight */}
+        <SpotlightSection />
 
-        {/* imported contact section */}
-        <ContactSection /> 
+        {/* Contact */}
+        <ContactSection />
 
-        <footer className="text-center text-sm text-[#A5A5A5] py-6 fixed bottom-0">
-    © Zak Hajjaji 🍊 Funk Mafia - Blueprint built with clarity & coffee
-  </footer>
-
+        {/* Connect */}
+        <LinkSection />
       </main>
 
-     
-
-
+      <footer className="text-center text-sm text-[#A5A5A5] py-6">
+        © Zak Hajjaji 🍊 Funk Mafia - Blueprint built with clarity & coffee
+      </footer>
+      
+    </>
   );
 }

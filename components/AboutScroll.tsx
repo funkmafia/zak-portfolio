@@ -1,8 +1,7 @@
 'use client';
 
 import React from 'react';
-
-
+import About from '@/app/data/about';
 
 type ScrollSlide = {
     title: string;
@@ -48,6 +47,10 @@ export default function AboutScroll() {
 
 
          </div>
+         <div className="max-w-4xl mx-auto text-center mb-10" data-aos="fade-up">
+  <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">The Blueprint Scrolls</h2>
+  <p className="text-[#A5A5A5] text-lg max-w-2xl mx-auto">Swipe through to know more about me.</p>
+</div>
 
          <div className="swiper mySwiperAbout max-w-3xl mx-auto px-4" data-aos="fade-up" data-aos-delay="100">
             <div className="swiper-wrapper">

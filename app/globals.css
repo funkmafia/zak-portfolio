@@ -1,2 +1,11 @@
 @import "tailwindcss";
 
+body {
+    font-family: var(--font-open-sans), sans-serif;
+  }
+  
+  h1, h2, h3 {
+    font-family: var(--font-montserrat), sans-serif;
+  }
+
+  @import 'aos/dist/aos.css';

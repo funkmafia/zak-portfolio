@@ -13,7 +13,7 @@ export default function Hero() {
             Building with Integrity. Empowering through Innovation.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 mt-6">
-            <a href="#projects" className="bg-[#6552D0] text-white px-6 py-3 rounded-md text-lg font-semibold hover:bg-[#6552D0] hover:shadow-lg hover:-translate-y-1 transform transition duration-300">
+            <a href="#Projects" className="bg-[#6552D0] text-white px-6 py-3 rounded-md text-lg font-semibold hover:bg-[#6552D0] hover:shadow-lg hover:-translate-y-1 transform transition duration-300">
               View My Work
             </a>
             <a href="#contact" className="border border-[#6552D0] text-[#6552D0] px-6 py-3 rounded-md text-lg font-semibold hover:bg-[#6552D0] hover:text-white hover:shadow-lg hover:-translate-y-1 transform transition duration-300">

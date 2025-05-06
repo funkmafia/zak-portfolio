@@ -5,7 +5,7 @@ import spotlight from "@/app/data/spotlight";
 
 export default function SpotlightSection() {
     return (
-<section className="py-24 px-6 bg-[#1A2238] text-[#F5F5F5]">
+<section id="spotlight" className="py-24 px-6 bg-[#1A2238] text-[#F5F5F5]">
 <div className="max-w-5xl mx-auto">
     <div className="text-center mb-16">     
     <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">Spotlight Project</h2>
@@ -17,8 +17,8 @@ export default function SpotlightSection() {
         data-aos="fade-up" data-aos-delay="100">
              <div className="w-full lg:w-1/2">
              <Image 
-             src={spotlight.image}
-             alt={`${spotlight.title} Preview`}
+            src={spotlight.project.image}
+            alt={`${spotlight.project.name} Preview`}
              width={600}
              height={400}
              className="rounded-lg object-cover w-full h-auto"
@@ -26,14 +26,14 @@ export default function SpotlightSection() {
              </div>
 
              <div className="w-full lg:w-1/2 text-left">
-          <h3 className="text-2xl font-bold text-[#6552D0] mb-4">{spotlight.title}</h3>
-          <p className="text-[#A5A5A5] text-base mb-6 leading-relaxed">{spotlight.description}</p>
+             <h3 className="text-2xl font-bold text-[#6552D0] mb-4">{spotlight.project.name}</h3>
+          <p className="text-[#A5A5A5] text-base mb-6 leading-relaxed">{spotlight.project.description}</p>
           <a 
-          href={spotlight.link}
+          href={spotlight.project.link}
           target="_blank" 
           rel="noopener"
             className="inline-block bg-[#6552D0] text-white px-6 py-3 rounded-md font-semibold hover:bg-[#7B69E6] transition duration-300">
-            {spotlight.buttonText}
+            {spotlight.project.buttonText}
           </a>
         </div>
 </div>

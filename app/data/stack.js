@@ -13,3 +13,5 @@ const stack = [
 ]
 
 export default stack; 
+
+{/* rafce - react arrow function component transport */}

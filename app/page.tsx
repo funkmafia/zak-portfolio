@@ -14,8 +14,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-
-      <main className="pt-20 px-6 max-w-7xl mx-auto space-y-24">
+      <main className="pt-20 px-6 max-w-7xl mx-auto space-y-24 bg-[#0F172A]">
         {/* Hero Section */}
         <Hero />
 
@@ -39,11 +38,10 @@ export default function Home() {
 
         {/* Connect */}
         <LinkSection />
-      </main>
-
-      <footer className="text-center text-sm text-[#A5A5A5] py-6">
+        <footer className="text-center text-sm text-[#A5A5A5] py-6">
         © Zak Hajjaji 🍊 Funk Mafia - Blueprint built with clarity & coffee
       </footer>
+      </main>
       
     </>
   );

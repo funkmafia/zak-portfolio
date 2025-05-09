@@ -1,11 +1,16 @@
 @import "tailwindcss";
+@import 'aos/dist/aos.css';
 
 body {
     font-family: var(--font-open-sans), sans-serif;
+  
   }
   
+  .bg-customDark {
+    background-color: #0F172A;
+  }
+
   h1, h2, h3 {
     font-family: var(--font-montserrat), sans-serif;
   }
 
-  @import 'aos/dist/aos.css';

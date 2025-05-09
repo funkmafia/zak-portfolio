@@ -1,4 +1,3 @@
-
 const aboutSlides = [
     {
         title: "Phase 1: The Leap", 

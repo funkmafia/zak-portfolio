@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Zak Hajjaji – Developer Portfolio 🚀
 
-## Getting Started
+Welcome to my personal portfolio project! A digital blueprint that showcases who I am, what I build, and how I think as a developer.
 
-First, run the development server:
+## 🔍 About This Project
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This portfolio was built using **Next.js**, **Tailwind CSS**, and a modular component-based architecture. It highlights my full-stack development skills, passion projects, and professional journey into software engineering.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🧩 Sections Overview
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Hero** Quick intro with a bold message and CTA.
+- **AboutScroll** A unique swiper section showcasing my story and phases of growth.
+- **Projects** Selected projects including frontend, full-stack, and API-driven apps.
+- **StackSelection** A visual breakdown of the tools and technologies I work with.
+- **BlueprintPrinciples** My personal coding & work principles.
+- **SpotlightSection** A deeper look at a featured project or area of interest.
+- **ContactSection** For freelance or collaboration inquiries.
+- **LinkSection** External links including GitHub, LinkedIn, and live projects.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Tech Stack
 
-## Learn More
+- **Framework**: Next.js 14
+- **Styling**: Tailwind CSS
+- **Animation**: AOS (Animate on Scroll)
+- **Components**: Modular and reusable React components
 
-To learn more about Next.js, take a look at the following resources:
+## 🌍 Live Site
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Visit the live portfolio:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📬 Contact
 
-## Deploy on Vercel
+## Open to freelance opportunities and collaboration! Reach out via the contact form on the site or connect with me on [LinkedIn](https://linkedin.com/in/zak-hajjaji-m-sc-cemap).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Built with clarity, code & a little coffee ☕

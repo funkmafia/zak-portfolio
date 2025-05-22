@@ -4,9 +4,10 @@ import React from 'react';
 import projects from '@/app/data/projects';
 
 export default function Projects() {
+  console.log("Project data:", projects);
     return (
 
-        <section id="Projects" className="py-20 px-6 bg-[#1A2238] text-[#F5F5F5">
+        <section id="Projects" className="py-20 px-6 bg-[#1A2238] text-[#F5F5F5]">
           <div className="max-w-5xl mx-auto text-center mb-12 space-y-4">
         <h2 className="text-3xl md:text-4xl font-heading font-bold text-[#F5F5F5]">The Blueprint</h2>
         <p className="text-[#A5A5A5] max-w-2xl mx-auto">
@@ -15,7 +16,6 @@ export default function Projects() {
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-
       {projects.map((project) => (
 
           <div key={project.id}
@@ -23,7 +23,7 @@ export default function Projects() {
           data-aos="fade-up"
           >
             <img 
-            src={project.image}
+            src={`/${project.image}`}
             alt={`Screenshot of ${project.title}`}
             className="rounded-md mb-4 object-cover h-40 w-full"
             />
@@ -52,10 +52,6 @@ export default function Projects() {
         ))}
       </div> 
         </section>
-
-
-
-
 
     );
 }

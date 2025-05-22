@@ -16,13 +16,13 @@ export default function SpotlightSection() {
         className="bg-[#0F172A] rounded-xl shadow-xl overflow-hidden flex flex-col lg:flex-row items-center gap-8 p-6 md:p-12"
         data-aos="fade-up" data-aos-delay="100">
              <div className="w-full lg:w-1/2">
-             <Image 
+          {/*   <Image 
             src={spotlight.project.image}
             alt={`${spotlight.project.name} Preview`}
              width={600}
              height={400}
              className="rounded-lg object-cover w-full h-auto"
-             />
+             /> */} 
              </div>
 
              <div className="w-full lg:w-1/2 text-left">

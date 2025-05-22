@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Projects from "@/components/ProjectsInfo";
+import Projects from "@/components/projects";
 import AboutScroll from "@/components/AboutScroll";
 import StackSelection from "@/components/StackSelection";
 import BluePrintPrinciples from "@/components/BlueprintPrinciples"; 

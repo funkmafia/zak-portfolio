@@ -7,7 +7,7 @@ export default function StackSelection() {
     return (
         <section id="stack" className="py-24 px-6 bg-[#0F172A] text-[#F5F5F5]">
     <div className="max-w-5xl mx-auto text-center mb-12" data-aos="fade-up">
-      <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4 text-red-500">The Stack & The Standard</h2>
+      <h2 className="text-3xl md:text-4xl font-heading font-bold mb-4">The Stack & The Standard</h2>
       <p className="text-[#A5A5A5] text-lg max-w-3xl mx-auto">The tools, and the principles I code by.</p>
     </div>
 
